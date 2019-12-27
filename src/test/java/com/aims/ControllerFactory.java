@@ -212,9 +212,10 @@ public class ControllerFactory {
 			Runtime.getRuntime().exec(cmd);
 		} else {
 			if ("LocalMachine".equalsIgnoreCase(machineType)) {
-				//Runtime.getRuntime().exec("cmd.exe /c start grid_LOCAL_WIN.bat", null, batchFileDir);
+				Runtime.getRuntime().exec("cmd.exe /c start grid_LOCAL_WIN.bat", null, batchFileDir);
+				Thread.sleep(30000);
 			} else {
-				//Runtime.getRuntime().exec("cmd.exe /c start grid_TEST_WIN1.bat", null, batchFileDir);
+				Runtime.getRuntime().exec("cmd.exe /c start grid_TEST_WIN1.bat", null, batchFileDir);
 			}
 		}
 	}	
