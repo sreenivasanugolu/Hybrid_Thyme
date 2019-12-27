@@ -23,11 +23,11 @@
 		</classes>
 	</test>
 	
-	<!--<test name="testing2">
+	<test name="testing2">
 		<parameter name="moduleName" value="testing2" />
 		<classes>
 			<class name="com.aims.ControllerFactory" />
 		</classes>
-	</test>-->
+	</test>
 	
 </suite>
