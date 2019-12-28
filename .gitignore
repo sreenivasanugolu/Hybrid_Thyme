@@ -5,3 +5,10 @@ bin/
 .classpath
 .settings
 .project
+.idea
+HybridThyme.iml
+HybridThyme.ipr
+HybridThyme.iws
+target/
+
+

@@ -9,12 +9,12 @@
 	<parameter name="controllerFileName" value="controller.xlsx" />
 	<parameter name="testDataFileName" value="testData.xlsx" />
 
-	<!--<test name="alfresco">
+	<test name="alfresco">
 		<parameter name="moduleName" value="alfresco" />
 		<classes>
 			<class name="com.aims.ControllerFactory" />
 		</classes>
-	</test> -->
+	</test>
 	
 	<test name="testing">
 		<parameter name="moduleName" value="testing" />
